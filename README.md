@@ -1,4 +1,4 @@
-LangChain Crash Course
+#LangChain Crash Course
 Welcome to the LangChain Crash Course repository! This repo contains all the code examples needed to follow along with the LangChain Master Class for Beginners video. By the end of this course, you'll be able to use LangChain to build AI agents, create RAG-based chatbots, and automate various tasks using AI.
 
 Course Overview
