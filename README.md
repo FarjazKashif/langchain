@@ -33,7 +33,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/bhancockio/langchain-crash-course
+git clone https://github.com/FarjazKashif/langchain
 cd langchain-crash-course
 ```
 
