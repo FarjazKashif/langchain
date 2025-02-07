@@ -1,14 +1,14 @@
-# 🚀 **LangChain Crash Course**
+# **LangChain Crash Course**
 
 Welcome to the **LangChain Crash Course** repository! This repo contains all the code examples you'll need to follow along with the **LangChain Master Class for Beginners**. By the end of this course, you'll be able to:
 
-✅ Build your own **AI agents**  
-✅ Create **RAG chatbots**  
-✅ Automate tasks using **AI**  
+- Build your own **AI agents**  
+- Create **RAG chatbots**  
+- Automate tasks using **AI**  
 
 ---
 
-## 📌 **Course Outline**
+## **Course Outline**
 
 1. **Setup Environment**
 2. **Chat Models**
@@ -19,43 +19,43 @@ Welcome to the **LangChain Crash Course** repository! This repo contains all the
 
 ---
 
-## 🚀 **Getting Started**
+## **Getting Started**
 
-### **🔹 Prerequisites**
+### **Prerequisites**
 
 Ensure you have the following installed:
 
 - **Python 3.10 or 3.11**
 - **Poetry** (Follow the [Poetry installation tutorial](https://python-poetry.org/docs/#installation))
 
-### **🔹 Installation**
+### **Installation**
 
-1️⃣ Clone the repository:
+1. Clone the repository:
 
 ```sh
 git clone https://github.com/bhancockio/langchain-crash-course
 cd langchain-crash-course
 ```
 
-2️⃣ Install dependencies using Poetry:
+2. Install dependencies using Poetry:
 
 ```sh
 poetry install --no-root
 ```
 
-3️⃣ Set up your environment variables:
+3. Set up your environment variables:
 
 ```sh
 mv .env.example .env
 ```
 
-4️⃣ Activate the Poetry shell:
+4. Activate the Poetry shell:
 
 ```sh
 poetry shell
 ```
 
-5️⃣ Run the example scripts:
+5. Run the example scripts:
 
 ```sh
 python 1_chat_models/1_chat_model_basic.py
@@ -63,10 +63,10 @@ python 1_chat_models/1_chat_model_basic.py
 
 ---
 
-## 📂 **Repository Structure**
+## **Repository Structure**
 
-### 🔹 **1. Chat Models**  
-📌 Learn to interact with **ChatGPT, Claude, and Gemini**.
+### **1. Chat Models**  
+- Learn to interact with **ChatGPT, Claude, and Gemini**.
 
 ```sh
 1_chat_model_basic.py
@@ -76,16 +76,16 @@ python 1_chat_models/1_chat_model_basic.py
 5_chat_model_save_message_history_firestore.py
 ```
 
-### 🔹 **2. Prompt Templates**  
-📌 Understand **prompt engineering** and optimize model responses.
+### **2. Prompt Templates**  
+Understand **prompt engineering** and optimize model responses.
 
 ```sh
 1_prompt_template_basic.py
 2_prompt_template_with_chat_model.py
 ```
 
-### 🔹 **3. Chains**  
-📌 Automate tasks by chaining **Chat Models & Prompts**.
+### **3. Chains**  
+- Automate tasks by chaining **Chat Models & Prompts**.
 
 ```sh
 1_chains_basics.py
@@ -95,8 +95,8 @@ python 1_chat_models/1_chat_model_basic.py
 5_chains_branching.py
 ```
 
-### 🔹 **4. RAG (Retrieval-Augmented Generation)**  
-📌 Work with **documents, embeddings, vector stores**.
+### **4. RAG (Retrieval-Augmented Generation)**  
+- Work with **documents, embeddings, vector stores**.
 
 ```sh
 1a_rag_basics.py
@@ -112,8 +112,8 @@ python 1_chat_models/1_chat_model_basic.py
 8_rag_web_scrape.py
 ```
 
-### 🔹 **5. Agents & Tools**  
-📌 Build AI agents and custom tools.
+### **5. Agents & Tools**  
+- Build AI agents and custom tools.
 
 ```sh
 1_agent_and_tools_basics.py
@@ -128,36 +128,22 @@ tools_deep_dive/
 
 ---
 
-## 📖 **How to Use This Repository**
+## **FAQ**
 
-1️⃣ **📺 Watch the Video**: Start with the **LangChain Master Class for Beginners** on YouTube.
-2️⃣ **💻 Run the Code**: Follow along with the examples in this repository.
-3️⃣ **👥 Join the Community**: Connect with AI developers in the **FREE Skool community**.
+Q1. **What is LangChain?**  
+Ans. LangChain is a framework designed to simplify building applications with **language models**.
 
----
+Q2. **How do I set up my environment?**  
+Ans Follow the **"Getting Started"** steps above to install dependencies and configure the environment.
 
-## ❓ **FAQ**
+Q3. **I'm getting an error when running the examples. What should I do?**  
+Ans. Ensure all dependencies are installed correctly, and your **.env** file is properly set up. If issues persist, join the **Skool community** or open a GitHub issue.
 
-❓ **What is LangChain?**  
-💡 LangChain is a framework designed to simplify building applications with **language models**.
+Q4. **Can I contribute to this repository?**  
+Ans. Yes! **Pull requests and issues** are welcome.
 
-❓ **How do I set up my environment?**  
-💡 Follow the **"Getting Started"** steps above to install dependencies and configure the environment.
-
-❓ **I'm getting an error when running the examples. What should I do?**  
-💡 Ensure all dependencies are installed correctly, and your **.env** file is properly set up. If issues persist, join the **Skool community** or open a GitHub issue.
-
-❓ **Can I contribute to this repository?**  
-💡 Yes! **Pull requests and issues** are welcome.
-
-❓ **Where can I find more info on LangChain?**  
-💡 Check out the **[official LangChain documentation](https://docs.langchain.com/)**.
-
----
-
-## 🔗 **Support & Contributions**
-
-If you find this project useful, consider **starring 🌟 the repo** and contributing. Feel free to open an issue or **join the discussion** in the Skool community.
+Q5. **Where can I find more info on LangChain?**  
+Ans. Check out the **[official LangChain documentation](https://docs.langchain.com/)**.
 
 ---
 
